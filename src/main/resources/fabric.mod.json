@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "greens-dyable-woods",
+	"version": "${version}",
+	"name": "Green's Dyable Woods",
+	"description": "A mod to allow dying wood cool colours",
+	"authors": [
+		"GreenBeanZ_"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/greens-dyable-woods/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.greenbeanz.greenswoods.GreensDyableWoods"
+		],
+		"fabric-datagen": [
+			"net.greenbeanz.greenswoods.GreensDyableWoodsDataGenerator"
+		],
+		"client":[
+			"net.greenbeanz.greenswoods.GreensDyableWoodsClient"
+]
+	},
+	"mixins": [
+		"greens-dyable-woods.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
