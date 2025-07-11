@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "greens-dyable-woods:item/stone_brick"
+  }
+}

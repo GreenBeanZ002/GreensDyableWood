@@ -2,6 +2,7 @@ package net.greenbeanz.greenswoods;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.greenbeanz.greenswoods.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -12,6 +13,6 @@ public class GreensDyableWoods implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
