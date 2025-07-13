@@ -4,6 +4,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.greenbeanz.greenswoods.GreensDyableWoods;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
+import net.minecraft.block.PillarBlock;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroups;
@@ -17,6 +18,8 @@ public class ModBlocks {
     //create blocks with all required blocksettings
 
     //oak planks
+    public static final Block BLUE_DYED_OAK_LOG = registerBlock("blue_dyed_oak_log",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
     public static final Block BLUE_DYED_OAK_PLANKS = registerBlock("blue_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
     public static final Block GREEN_DYED_OAK_PLANKS = registerBlock("green_dyed_oak_planks",
@@ -41,6 +44,7 @@ public class ModBlocks {
 
         //add blocks to creative mode inventory
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+                    entries.add(ModBlocks.BLUE_DYED_OAK_LOG);
                     entries.add(ModBlocks.BLUE_DYED_OAK_PLANKS);
                     entries.add(ModBlocks.GREEN_DYED_OAK_PLANKS);
                     entries.add(ModBlocks.RED_DYED_OAK_PLANKS);
