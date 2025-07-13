@@ -14,8 +14,16 @@ import net.minecraft.util.Identifier;
 
 public class ModBlocks {
 
+    //create blocks with all required blocksettings
+
+    //oak planks
     public static final Block BLUE_DYED_OAK_PLANKS = registerBlock("blue_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block GREEN_DYED_OAK_PLANKS = registerBlock("green_dyed_oak_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block RED_DYED_OAK_PLANKS = registerBlock("red_dyed_oak_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+
 
 
     private static Block registerBlock(String name, Block block) {
@@ -31,8 +39,11 @@ public class ModBlocks {
     public static void registerModBlocks() {
         GreensDyableWoods.LOGGER.info("Registering Mod Blocks for " + GreensDyableWoods.MOD_ID);
 
+        //add blocks to creative mode inventory
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
                     entries.add(ModBlocks.BLUE_DYED_OAK_PLANKS);
+                    entries.add(ModBlocks.GREEN_DYED_OAK_PLANKS);
+                    entries.add(ModBlocks.RED_DYED_OAK_PLANKS);
                 }
         );
     }

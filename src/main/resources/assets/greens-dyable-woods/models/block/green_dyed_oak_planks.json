@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_all",
+  "textures": {
+    "all":"greens-dyable-woods:block/green_dyed_oak_planks"
+  }
+
+}
