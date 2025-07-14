@@ -17,13 +17,21 @@ public class ModBlocks {
 
     //create blocks with all required blocksettings
 
-    //oak planks
+    //blue
     public static final Block BLUE_DYED_OAK_LOG = registerBlock("blue_dyed_oak_log",
             new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
     public static final Block BLUE_DYED_OAK_PLANKS = registerBlock("blue_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+
+    //green
     public static final Block GREEN_DYED_OAK_PLANKS = registerBlock("green_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block GREEN_DYED_OAK_LOG = registerBlock("green_dyed_oak_log",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+
+   //red
+   public static final Block RED_DYED_OAK_LOG = registerBlock("red_dyed_oak_log",
+           new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
     public static final Block RED_DYED_OAK_PLANKS = registerBlock("red_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
@@ -44,9 +52,14 @@ public class ModBlocks {
 
         //add blocks to creative mode inventory
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
+                    //blue
                     entries.add(ModBlocks.BLUE_DYED_OAK_LOG);
                     entries.add(ModBlocks.BLUE_DYED_OAK_PLANKS);
+                    //green
+                    entries.add(ModBlocks.GREEN_DYED_OAK_LOG);
                     entries.add(ModBlocks.GREEN_DYED_OAK_PLANKS);
+                    //red
+                    entries.add(ModBlocks.RED_DYED_OAK_LOG);
                     entries.add(ModBlocks.RED_DYED_OAK_PLANKS);
                 }
         );
