@@ -1,4 +1,4 @@
-package net.greenbeanz.block;
+package net.greenbeanz.greenswoods.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.greenbeanz.greenswoods.GreensDyableWoods;
@@ -52,15 +52,7 @@ public class ModBlocks {
 
         //add blocks to creative mode inventory
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-                    //blue
-                    entries.add(ModBlocks.BLUE_DYED_OAK_LOG);
-                    entries.add(ModBlocks.BLUE_DYED_OAK_PLANKS);
-                    //green
-                    entries.add(ModBlocks.GREEN_DYED_OAK_LOG);
-                    entries.add(ModBlocks.GREEN_DYED_OAK_PLANKS);
-                    //red
-                    entries.add(ModBlocks.RED_DYED_OAK_LOG);
-                    entries.add(ModBlocks.RED_DYED_OAK_PLANKS);
+
                 }
         );
     }
