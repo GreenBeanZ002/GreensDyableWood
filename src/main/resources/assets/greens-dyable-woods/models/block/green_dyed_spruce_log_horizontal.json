@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "greens-dyable-woods:block/green_dyed_spruce_log_top",
+    "side": "greens-dyable-woods:block/green_dyed_spruce_log"
+  }
+}

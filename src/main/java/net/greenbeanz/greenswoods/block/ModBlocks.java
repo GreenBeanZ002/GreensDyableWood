@@ -23,10 +23,20 @@ public class ModBlocks {
     public static final Block BLUE_DYED_OAK_PLANKS = registerBlock("blue_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
+    public static final Block BLUE_DYED_SPRUCE_LOG = registerBlock("blue_dyed_spruce_log",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block BLUE_DYED_SPRUCE_PLANKS = registerBlock("blue_dyed_spruce_planks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+
     //green
     public static final Block GREEN_DYED_OAK_PLANKS = registerBlock("green_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
     public static final Block GREEN_DYED_OAK_LOG = registerBlock("green_dyed_oak_log",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+
+    public static final Block GREEN_DYED_SPRUCE_LOG = registerBlock("green_dyed_spruce_log",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block GREEN_DYED_SPRUCE_PLANKS = registerBlock("green_dyed_spruce_planks",
             new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
    //red
@@ -35,6 +45,10 @@ public class ModBlocks {
     public static final Block RED_DYED_OAK_PLANKS = registerBlock("red_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
+    public static final Block RED_DYED_SPRUCE_LOG = registerBlock("red_dyed_spruce_log",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block RED_DYED_SPRUCE_PLANKS = registerBlock("red_dyed_spruce_planks",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
 
     private static Block registerBlock(String name, Block block) {

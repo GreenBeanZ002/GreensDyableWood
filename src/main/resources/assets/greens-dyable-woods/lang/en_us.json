@@ -7,10 +7,17 @@
 
   "block.greens-dyable-woods.blue_dyed_oak_log":"Blue Dyed Oak Log",
   "block.greens-dyable-woods.blue_dyed_oak_planks": "Blue Dyed Oak Planks",
+  "block.greens-dyable-woods.blue_dyed_spruce_log":"Blue Dyed Spruce Log",
+  "block.greens-dyable-woods.blue_dyed_spruce_planks": "Blue Dyed Spruce Planks",
+
 
   "block.greens-dyable-woods.green_dyed_oak_log":"Green Dyed Oak Log",
-  "block.greens-dyable-woods.green_dyed_oak_planks":"Blue Dyed Oak Planks",
+  "block.greens-dyable-woods.green_dyed_oak_planks":"Green Dyed Oak Planks",
+  "block.greens-dyable-woods.green_dyed_spruce_log":"Green Dyed Spruce Log",
+  "block.greens-dyable-woods.green_dyed_spruce_planks":"Green Dyed Spruce Planks",
 
   "block.greens-dyable-woods.red_dyed_oak_log":"Red Dyed Oak Log",
-  "block.greens-dyable-woods.red_dyed_oak_planks":"Red Dyed Oak Planks"
+  "block.greens-dyable-woods.red_dyed_oak_planks":"Red Dyed Oak Planks",
+  "block.greens-dyable-woods.red_dyed_spruce_log":"Red Dyed Spruce Log",
+  "block.greens-dyable-woods.red_dyed_spruce_planks":"Red Dyed Spruce Planks"
 }

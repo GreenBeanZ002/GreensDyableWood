@@ -20,12 +20,21 @@ public class ModItemGroups {
                         //blue
                         entries.add(ModBlocks.BLUE_DYED_OAK_LOG);
                         entries.add(ModBlocks.BLUE_DYED_OAK_PLANKS);
+
+                        entries.add(ModBlocks.BLUE_DYED_SPRUCE_LOG);
+                        entries.add(ModBlocks.BLUE_DYED_SPRUCE_PLANKS);
                         //green
                         entries.add(ModBlocks.GREEN_DYED_OAK_LOG);
                         entries.add(ModBlocks.GREEN_DYED_OAK_PLANKS);
+
+                        entries.add(ModBlocks.GREEN_DYED_SPRUCE_LOG);
+                        entries.add(ModBlocks.GREEN_DYED_SPRUCE_PLANKS);
                         //red
                         entries.add(ModBlocks.RED_DYED_OAK_LOG);
                         entries.add(ModBlocks.RED_DYED_OAK_PLANKS);
+
+                        entries.add(ModBlocks.RED_DYED_SPRUCE_LOG);
+                        entries.add(ModBlocks.RED_DYED_SPRUCE_PLANKS);
                     }).build());
 
 
