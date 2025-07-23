@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "greens-dyable-woods:block/orange_dyed_spruce_planks"
+    }
+}

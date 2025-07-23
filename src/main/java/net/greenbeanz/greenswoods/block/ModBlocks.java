@@ -20,6 +20,13 @@ public class ModBlocks {
     //blue
     public static final Block BLUE_DYED_OAK_LOG = registerBlock("blue_dyed_oak_log",
             new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block BLUE_DYED_OAK_WOOD = registerBlock("blue_dyed_oak_wood",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block STRIPPED_BLUE_DYED_OAK_LOG = registerBlock("stripped_blue_dyed_oak_log",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    public static final Block STRIPPED_BLUE_DYED_OAK_WOOD = registerBlock("stripped_blue_dyed_oak_wood",
+            new PillarBlock(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+
     public static final Block BLUE_DYED_OAK_PLANKS = registerBlock("blue_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 

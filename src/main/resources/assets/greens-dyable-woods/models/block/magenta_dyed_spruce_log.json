@@ -1,0 +1,7 @@
+{
+    "parent": "minecraft:block/cube_column",
+    "textures": {
+        "end": "greens-dyable-woods:block/magenta_dyed_spruce_log_top",
+        "side": "greens-dyable-woods:block/magenta_dyed_spruce_log"
+    }
+}
