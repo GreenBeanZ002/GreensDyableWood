@@ -18,25 +18,26 @@ public class ModItemGroups {
                     .displayName(Text.translatable("itemgroup.greens-dyable-woods.dyed-items"))
                     .entries((displayContext, entries) -> {
                         //black
-
+                        entries.add(ModBlocks.BLACK_DYED_OAK_PLANKS);
                         //brown
-
+                        entries.add(ModBlocks.BROWN_DYED_OAK_PLANKS);
                         //gray
-
+                        entries.add(ModBlocks.GRAY_DYED_OAK_PLANKS);
                         //light gray
-
+                        entries.add(ModBlocks.LIGHT_GRAY_DYED_OAK_PLANKS);
                         //cyan
-
+                        entries.add(ModBlocks.CYAN_DYED_OAK_PLANKS);
+                        //light blue
+                        entries.add(ModBlocks.LIGHT_BLUE_DYED_OAK_PLANKS);
                         //blue
                         entries.add(ModBlocks.BLUE_DYED_OAK_LOG);
                         entries.add(ModBlocks.BLUE_DYED_OAK_PLANKS);
 
                         entries.add(ModBlocks.BLUE_DYED_SPRUCE_LOG);
                         entries.add(ModBlocks.BLUE_DYED_SPRUCE_PLANKS);
-                        //light blue
 
                         //lime
-
+                        entries.add(ModBlocks.LIME_DYED_OAK_PLANKS);
                         //green
                         entries.add(ModBlocks.GREEN_DYED_OAK_LOG);
                         entries.add(ModBlocks.GREEN_DYED_OAK_PLANKS);
@@ -54,7 +55,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ORANGE_DYED_OAK_PLANKS);
                         //magenta
                         entries.add(ModBlocks.MAGENTA_DYED_OAK_PLANKS);
-                        //purple
                         entries.add(ModBlocks.PURPLE_DYED_OAK_PLANKS);
                         //pink
                         entries.add(ModBlocks.PINK_DYED_OAK_PLANKS);

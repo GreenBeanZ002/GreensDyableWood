@@ -1,15 +1,15 @@
 {
     "variants": {
         "axis=x": {
-            "model": "greens-dyable-woods:block/light gray_dyed_spruce_log_horizontal",
+            "model": "greens-dyable-woods:block/light_gray_dyed_spruce_log_horizontal",
             "x": 90,
             "y": 90
         },
         "axis=y": {
-            "model": "greens-dyable-woods:block/light gray_dyed_spruce_log"
+            "model": "greens-dyable-woods:block/light_gray_dyed_spruce_log"
         },
         "axis=z": {
-            "model": "greens-dyable-woods:block/light gray_dyed_spruce_log_horizontal",
+            "model": "greens-dyable-woods:block/light_gray_dyed_spruce_log_horizontal",
             "x": 90
         }
     }

@@ -80,6 +80,27 @@ public class ModBlocks {
     public static final Block MAGENTA_DYED_OAK_PLANKS = registerBlock("magenta_dyed_oak_planks",
             new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
+    //black
+    public static final Block BLACK_DYED_OAK_PLANKS = registerBlock("black_dyed_oak_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    //brown
+    public static final Block BROWN_DYED_OAK_PLANKS = registerBlock("brown_dyed_oak_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    //gray
+    public static final Block GRAY_DYED_OAK_PLANKS = registerBlock("gray_dyed_oak_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    //light gray
+    public static final Block LIGHT_GRAY_DYED_OAK_PLANKS = registerBlock("light_gray_dyed_oak_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    //cyan
+    public static final Block CYAN_DYED_OAK_PLANKS = registerBlock("cyan_dyed_oak_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    //light blue
+    public static final Block LIGHT_BLUE_DYED_OAK_PLANKS = registerBlock("light_blue_dyed_oak_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
+    //lime
+    public static final Block LIME_DYED_OAK_PLANKS = registerBlock("lime_dyed_oak_planks",
+            new Block(AbstractBlock.Settings.create().strength(2.0F, 3.0F).sounds(BlockSoundGroup.WOOD).burnable()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

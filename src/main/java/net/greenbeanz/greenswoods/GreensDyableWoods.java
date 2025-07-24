@@ -5,6 +5,7 @@ import net.fabricmc.api.ModInitializer;
 import net.greenbeanz.greenswoods.block.ModBlocks;
 import net.greenbeanz.greenswoods.item.ModItemGroups;
 import net.greenbeanz.greenswoods.item.ModItems;
+import net.minecraft.item.AxeItem;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

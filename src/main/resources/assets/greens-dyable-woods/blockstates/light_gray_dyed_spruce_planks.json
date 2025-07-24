@@ -1,7 +1,7 @@
 {
     "variants": {
         "": {
-            "model": "greens-dyable-woods:block/light gray_dyed_spruce_planks"
+            "model": "greens-dyable-woods:block/light_gray_dyed_spruce_planks"
         }
     }
 }
